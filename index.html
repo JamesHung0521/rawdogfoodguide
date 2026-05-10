@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO 基础标签 -->
+    <title>rawdogfoodguide.com - Complete Raw Dog Food Feeding Guide for Small Breeds</title>
+    <meta name="description" content="Your ultimate guide to raw feeding for small breed dogs. Expert guides, portion calculators, and breed-specific raw diet plans. Help your Chihuahua, French Bulldog, or Yorkie thrive.">
+    <meta name="keywords" content="raw dog food, small breed dog diet, BARF diet dogs, chihuahua raw food, french bulldog nutrition, raw feeding guide, homemade dog food">
+    <meta name="author" content="rawdogfoodguide.com">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Raw Feeding Made Simple for Small Dogs">
+    <meta property="og:description" content="Complete guides, portion calculators, and breed-specific raw diet plans for your small breed dog.">
+    <meta property="og:url" content="https://rawdogfoodguide.com">
+    <meta property="og:site_name" content="rawdogfoodguide.com">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Raw Feeding Made Simple for Small Dogs">
+    <meta name="twitter:description" content="Complete guides, portion calculators, and breed-specific raw diet plans for your small breed dog.">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://rawdogfoodguide.com">
+    
+    <!-- 样式表 -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- 结构化数据 - Organization -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "rawdogfoodguide.com",
+        "url": "https://rawdogfoodguide.com",
+        "description": "Complete raw dog food feeding guide for small breeds",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://rawdogfoodguide.com/guides.html?search={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <!-- Logo SVG - Dog Paw -->
+                <svg class="logo-icon" viewBox="0 0 36 36" fill="none">
+                    <ellipse cx="18" cy="22" rx="8" ry="7" fill="url(#pawGrad)"/>
+                    <circle cx="10" cy="14" r="4" fill="url(#pawGrad)"/>
+                    <circle cx="26" cy="14" r="4" fill="url(#pawGrad)"/>
+                    <circle cx="14" cy="10" r="3" fill="url(#pawGrad)"/>
+                    <circle cx="22" cy="10" r="3" fill="url(#pawGrad)"/>
+                    <defs>
+                        <linearGradient id="pawGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#8B6914"/>
+                            <stop offset="100%" style="stop-color:#4A7C59"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <span>rawdogfoodguide</span>
+            </a>
+            
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="guides.html">Guides</a></li>
+                <li><a href="breeds.html">Breeds</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            
+            <!-- 汉堡菜单按钮 -->
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero 区域 -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Raw Feeding Made Simple for Small Dogs</h1>
+                <p class="subtitle">Complete guides, portion calculators, and breed-specific raw diet plans for your small breed dog.</p>
+                
+                <!-- 搜索框 -->
+                <div class="search-box">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" placeholder="Search guides (e.g., Chihuahua raw diet)..." aria-label="Search guides">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Guides -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">🐾 Popular Guides</h2>
+                <p class="section-subtitle">Explore our most helpful raw feeding guides</p>
+            </div>
+            
+            <div class="game-grid" id="popularGuides">
+                <!-- Guide cards will be rendered by JS -->
+            </div>
+            
+            <div class="text-center mt-xl">
+                <a href="guides.html" class="btn btn-secondary">View All Guides →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Articles -->
+    <section class="section" style="background: var(--bg-secondary);">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">📚 Featured Articles</h2>
+                <p class="section-subtitle">Latest tips and insights on raw dog feeding</p>
+            </div>
+            
+            <div class="guide-list" id="latestGuides">
+                <!-- Guide cards will be rendered by JS -->
+            </div>
+            
+            <div class="text-center mt-xl">
+                <a href="guides.html" class="btn btn-primary">Browse All Articles →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why rawdogfoodguide -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">💡 Why rawdogfoodguide?</h2>
+                <p class="section-subtitle">Everything you need for healthy raw feeding</p>
+            </div>
+            
+            <div class="game-grid">
+                <div class="game-card" style="text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🧪</div>
+                    <h3>Science-Based</h3>
+                    <p style="color: var(--text-secondary); margin-top: 0.5rem;">Backed by veterinary nutrition research</p>
+                </div>
+                
+                <div class="game-card" style="text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🐾</div>
+                    <h3>Breed-Specific</h3>
+                    <p style="color: var(--text-secondary); margin-top: 0.5rem;">Tailored guides for 15+ small breeds</p>
+                </div>
+                
+                <div class="game-card" style="text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🆓</div>
+                    <h3>100% Free</h3>
+                    <p style="color: var(--text-secondary); margin-top: 0.5rem;">No paywalls, no signup required</p>
+                </div>
+                
+                <div class="game-card" style="text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🔄</div>
+                    <h3>Always Updated</h3>
+                    <p style="color: var(--text-secondary); margin-top: 0.5rem;">Latest nutritional research and safety guidelines</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="guides.html">All Guides</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Popular Breeds</h4>
+                    <ul>
+                        <li><a href="guides/chihuahua-raw-diet.html">Chihuahua</a></li>
+                        <li><a href="guides/french-bulldog-raw-diet.html">French Bulldog</a></li>
+                        <li><a href="guides/yorkshire-terrier-raw-diet.html">Yorkshire Terrier</a></li>
+                        <li><a href="guides/shih-tzu-raw-diet.html">Shih Tzu</a></li>
+                        <li><a href="guides/pomeranian-raw-diet.html">Pomeranian</a></li>
+                        <li><a href="guides/dachshund-raw-diet.html">Dachshund</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms-of-service.html">Terms of Service</a></li>
+                        <li><a href="cookie-policy.html">Cookie Policy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:contact@rawdogfoodguide.com">contact@rawdogfoodguide.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2025 rawdogfoodguide.com. All rights reserved. Consult your vet before changing your dog's diet.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script>
+        // 渲染热门攻略
+        document.getElementById('popularGuides').innerHTML = 
+            window.rawdogfoodguide.guides.slice(0, 6).map(window.rawdogfoodguide.renderGuideCard).join('');
+        
+        // 渲染最新文章
+        document.getElementById('latestGuides').innerHTML = 
+            window.rawdogfoodguide.articles.slice(0, 3).map(window.rawdogfoodguide.renderGuideCard).join('');
+    </script>
+</body>
+</html>

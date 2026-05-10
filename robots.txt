@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Sitemap: https://rawdogfoodguide.com/sitemap.xml
+
+# Block AI crawlers
+User-agent: GPTBot
+Disallow: /
+User-agent: ChatGPT-User
+Disallow: /
+User-agent: CCBot
+Disallow: /
+User-agent: Google-Extended
+Disallow: /
