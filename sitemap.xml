@@ -2,44 +2,110 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://rawdogfoodguide.com/</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-05-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://rawdogfoodguide.com/guides.html</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-05-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://rawdogfoodguide.com/breeds.html</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-05-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://rawdogfoodguide.com/about.html</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-05-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rawdogfoodguide.com/privacy-policy.html</loc>
-    <lastmod>2025-01-01</lastmod>
-    <changefreq>yearly</changefreq>
+    <lastmod>2025-05-10</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://rawdogfoodguide.com/terms-of-service.html</loc>
-    <lastmod>2025-01-01</lastmod>
-    <changefreq>yearly</changefreq>
+    <lastmod>2025-05-10</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://rawdogfoodguide.com/cookie-policy.html</loc>
-    <lastmod>2025-01-01</lastmod>
-    <changefreq>yearly</changefreq>
+    <lastmod>2025-05-10</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://rawdogfoodguide.com/guides/beginners-guide-raw-feeding-small-dogs.html</loc>
+    <lastmod>2025-05-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rawdogfoodguide.com/guides/chihuahua-raw-diet.html</loc>
+    <lastmod>2025-05-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rawdogfoodguide.com/guides/french-bulldog-raw-diet.html</loc>
+    <lastmod>2025-05-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rawdogfoodguide.com/guides/yorkshire-terrier-raw-diet.html</loc>
+    <lastmod>2025-05-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rawdogfoodguide.com/guides/shihtzu-raw-diet.html</loc>
+    <lastmod>2025-05-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rawdogfoodguide.com/guides/pomeranian-raw-diet.html</loc>
+    <lastmod>2025-05-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rawdogfoodguide.com/guides/dachshund-raw-diet.html</loc>
+    <lastmod>2025-05-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rawdogfoodguide.com/guides/maltese-raw-diet.html</loc>
+    <lastmod>2025-05-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rawdogfoodguide.com/guides/barf-diet-small-breeds.html</loc>
+    <lastmod>2025-05-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rawdogfoodguide.com/guides/raw-feeding-portion-calculator.html</loc>
+    <lastmod>2025-05-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rawdogfoodguide.com/guides/raw-food-safety-handling.html</loc>
+    <lastmod>2025-05-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>

@@ -142,33 +142,83 @@ document.head.appendChild(style);
    ======================================== */
 const guidesData = [
     {
-        id: 'beginners-guide',
-        name: "Beginner's Guide to Raw Feeding",
+        id: 'beginners-guide-raw-feeding-small-dogs',
+        name: "Beginner's Guide to Raw Feeding Small Dogs",
         icon: '🥩',
         iconColor: '#C45C4A',
         tags: ['Beginner', 'Basics', 'Getting Started'],
-        description: 'Everything you need to know to start your dog on a raw food diet safely.',
-        readTime: '10 min',
+        description: 'Everything you need to know to start your small dog on a raw food diet safely.',
+        readTime: '12 min',
         difficulty: 1
     },
     {
         id: 'chihuahua-raw-diet',
-        name: 'Raw Diet for Chihuahuas',
+        name: 'Chihuahua Raw Diet Guide',
         icon: '🐕',
         iconColor: '#8B6914',
-        tags: ['Breed-Specific', 'Small Breed', 'Teacup'],
-        description: 'Tailored raw feeding guidelines for tiny Chihuahuas and teacup varieties.',
-        readTime: '8 min',
+        tags: ['Breed-Specific', 'Chihuahua', 'Small Breed'],
+        description: 'Complete raw feeding guide tailored specifically for Chihuahuas and teacup varieties.',
+        readTime: '9 min',
         difficulty: 2
     },
     {
         id: 'french-bulldog-raw-diet',
-        name: 'Raw Diet for French Bulldogs',
+        name: 'French Bulldog Raw Diet Guide',
         icon: '🐶',
         iconColor: '#D4A017',
-        tags: ['Breed-Specific', 'Brachycephalic', 'Sensitive'],
-        description: 'Raw feeding guide designed for French Bulldogs with their unique needs.',
+        tags: ['Breed-Specific', 'French Bulldog', 'Brachycephalic'],
+        description: 'Raw feeding guide designed for French Bulldogs with their unique digestive needs.',
+        readTime: '10 min',
+        difficulty: 2
+    },
+    {
+        id: 'yorkshire-terrier-raw-diet',
+        name: 'Yorkshire Terrier Raw Diet Guide',
+        icon: '🐕‍🦺',
+        iconColor: '#4A7C59',
+        tags: ['Breed-Specific', 'Yorkie', 'Small Breed'],
+        description: 'Expert guidance on feeding your Yorkshire Terrier a healthy raw diet.',
+        readTime: '8 min',
+        difficulty: 2
+    },
+    {
+        id: 'shihtzu-raw-diet',
+        name: 'Shih Tzu Raw Diet Guide',
+        icon: '🐩',
+        iconColor: '#C45C4A',
+        tags: ['Breed-Specific', 'Shih Tzu', 'Small Breed'],
+        description: 'Nutritional guide for feeding your Shih Tzu a species-appropriate raw diet.',
+        readTime: '8 min',
+        difficulty: 2
+    },
+    {
+        id: 'pomeranian-raw-diet',
+        name: 'Pomeranian Raw Diet Guide',
+        icon: '🦊',
+        iconColor: '#5A9469',
+        tags: ['Breed-Specific', 'Pomeranian', 'Toy Breed'],
+        description: 'Raw feeding guidelines specifically for energetic Pomeranians.',
+        readTime: '7 min',
+        difficulty: 2
+    },
+    {
+        id: 'dachshund-raw-diet',
+        name: 'Dachshund Raw Diet Guide',
+        icon: '🌭',
+        iconColor: '#6B5010',
+        tags: ['Breed-Specific', 'Dachshund', 'Small Breed'],
+        description: 'Complete raw diet guide tailored for long-backed Dachshunds.',
         readTime: '9 min',
+        difficulty: 2
+    },
+    {
+        id: 'maltese-raw-diet',
+        name: 'Maltese Raw Diet Guide',
+        icon: '🐾',
+        iconColor: '#A67C00',
+        tags: ['Breed-Specific', 'Maltese', 'Toy Breed'],
+        description: 'Raw feeding guide for your elegant Maltese companion.',
+        readTime: '8 min',
         difficulty: 2
     },
     {
@@ -177,62 +227,29 @@ const guidesData = [
         icon: '🦴',
         iconColor: '#4A7C59',
         tags: ['BARF', 'Nutrition', 'Complete Diet'],
-        description: 'Understanding the BARF (Biologically Appropriate Raw Food) diet model.',
+        description: 'Understanding the BARF (Biologically Appropriate Raw Food) diet model for small dogs.',
         readTime: '12 min',
         difficulty: 3
     },
     {
-        id: 'portion-calculator',
-        name: 'Portion Calculator',
+        id: 'raw-feeding-portion-calculator',
+        name: 'Raw Feeding Portion Calculator',
         icon: '⚖️',
         iconColor: '#5A9469',
         tags: ['Calculator', 'Portions', 'Tools'],
-        description: 'Calculate the right amount of raw food for your small breed dog.',
+        description: 'Calculate the perfect amount of raw food for your small breed dog.',
         readTime: '5 min',
         difficulty: 1
     },
     {
-        id: 'raw-food-safety',
-        name: 'Raw Food Safety Guide',
+        id: 'raw-food-safety-handling',
+        name: 'Raw Food Safety & Handling Guide',
         icon: '🛡️',
         iconColor: '#6B5010',
         tags: ['Safety', 'Hygiene', 'Storage'],
-        description: 'Essential safety practices for handling and storing raw dog food.',
-        readTime: '7 min',
-        difficulty: 1
-    }
-];
-
-const articlesData = [
-    {
-        id: 'yorkshire-terrier-raw-diet',
-        name: 'Yorkshire Terrier Raw Diet Guide',
-        icon: '🐕‍🦺',
-        iconColor: '#8B6914',
-        tags: ['Breed-Specific', 'Yorkie', 'Small Breed'],
-        description: 'Complete guide to feeding your Yorkie a healthy raw diet.',
+        description: 'Essential safety practices for handling, storing, and preparing raw dog food.',
         readTime: '8 min',
-        difficulty: 2
-    },
-    {
-        id: 'transitioning-to-raw',
-        name: 'Transitioning to Raw: A Step-by-Step Guide',
-        icon: '🔄',
-        iconColor: '#4A7C59',
-        tags: ['Transition', 'Switching Diets', 'Tips'],
-        description: 'How to safely switch your dog from kibble to raw food.',
-        readTime: '11 min',
-        difficulty: 2
-    },
-    {
-        id: 'raw-meat-vs-kibble',
-        name: 'Raw Meat vs. Kibble: Pros and Cons',
-        icon: '⚖️',
-        iconColor: '#D4A017',
-        tags: ['Comparison', 'Nutrition', 'Research'],
-        description: 'An objective look at the benefits and drawbacks of each diet type.',
-        readTime: '10 min',
-        difficulty: 2
+        difficulty: 1
     }
 ];
 
