@@ -250,6 +250,116 @@ const guidesData = [
         description: 'Essential safety practices for handling, storing, and preparing raw dog food.',
         readTime: '8 min',
         difficulty: 1
+    },
+    {
+        id: 'boston-terrier-raw-diet',
+        name: 'Boston Terrier Raw Diet Guide',
+        icon: '🎩',
+        iconColor: '#4A7C59',
+        tags: ['Breed-Specific', 'Boston Terrier', 'Small Breed'],
+        description: 'Complete raw feeding guide tailored specifically for Boston Terriers and their unique nutritional needs.',
+        readTime: '9 min',
+        difficulty: 2
+    },
+    {
+        id: 'cavalier-king-charles-raw-diet',
+        name: 'Cavalier King Charles Raw Diet Guide',
+        icon: '👑',
+        iconColor: '#C45C4A',
+        tags: ['Breed-Specific', 'Cavalier', 'Toy Breed'],
+        description: 'Expert raw feeding guidance for Cavalier King Charles Spaniels with heart health considerations.',
+        readTime: '10 min',
+        difficulty: 2
+    },
+    {
+        id: 'pug-raw-diet',
+        name: 'Pug Raw Diet Guide',
+        icon: '🐶',
+        iconColor: '#8B6914',
+        tags: ['Breed-Specific', 'Pug', 'Brachycephalic'],
+        description: 'Raw feeding guide designed for Pugs with their unique respiratory and digestive requirements.',
+        readTime: '8 min',
+        difficulty: 2
+    },
+    {
+        id: 'papillon-raw-diet',
+        name: 'Papillon Raw Diet Guide',
+        icon: '🦋',
+        iconColor: '#D4A017',
+        tags: ['Breed-Specific', 'Papillon', 'Toy Breed'],
+        description: 'Nutritional guide for feeding your elegant Papillon a healthy raw diet.',
+        readTime: '7 min',
+        difficulty: 2
+    },
+    {
+        id: 'havanese-raw-diet',
+        name: 'Havanese Raw Diet Guide',
+        icon: '🌺',
+        iconColor: '#5A9469',
+        tags: ['Breed-Specific', 'Havanese', 'Toy Breed'],
+        description: 'Complete raw feeding guide for Havanese dogs with their silky coats and lively personalities.',
+        readTime: '8 min',
+        difficulty: 2
+    },
+    {
+        id: 'raw-diet-transition-guide',
+        name: 'Raw Diet Transition Guide',
+        icon: '🔄',
+        iconColor: '#6B5010',
+        tags: ['Transition', 'Getting Started', 'Tips'],
+        description: 'Step-by-step guide to safely transition your small dog from kibble to raw food.',
+        readTime: '10 min',
+        difficulty: 2
+    },
+    {
+        id: 'raw-diet-supplements-small-dogs',
+        name: 'Raw Diet Supplements for Small Dogs',
+        icon: '💊',
+        iconColor: '#C45C4A',
+        tags: ['Supplements', 'Nutrition', 'Health'],
+        description: 'Essential supplements to complement a raw diet for optimal small dog health.',
+        readTime: '9 min',
+        difficulty: 3
+    },
+    {
+        id: 'raw-meaty-bones-small-dogs',
+        name: 'Raw Meaty Bones for Small Dogs',
+        icon: '🦴',
+        iconColor: '#4A7C59',
+        tags: ['Meaty Bones', 'Chewing', 'Dental Health'],
+        description: 'Safe raw bone options and feeding guidelines for small breed dogs.',
+        readTime: '8 min',
+        difficulty: 2
+    },
+    {
+        id: 'puppy-raw-feeding-guide',
+        name: 'Puppy Raw Feeding Guide',
+        icon: '🐕‍🦺',
+        iconColor: '#8B6914',
+        tags: ['Puppy', 'Growth', 'Development'],
+        description: 'Complete guide to raising a healthy small breed puppy on a raw food diet.',
+        readTime: '12 min',
+        difficulty: 2
+    },
+    {
+        id: 'raw-diet-allergies-small-dogs',
+        name: 'Raw Diet Allergies in Small Dogs',
+        icon: '⚠️',
+        iconColor: '#D4A017',
+        tags: ['Allergies', 'Health', 'Sensitive Dogs'],
+        description: 'Understanding and managing food allergies when feeding a raw diet to small dogs.',
+        readTime: '9 min',
+        difficulty: 3
+    },
+    {
+        id: 'prey-model-raw-diet-small-breeds',
+        name: 'Prey Model Raw Diet for Small Breeds',
+        icon: '🎯',
+        iconColor: '#5A9469',
+        tags: ['Prey Model', 'BARF', 'Complete Diet'],
+        description: 'Understanding the prey model approach to raw feeding for small breed dogs.',
+        readTime: '11 min',
+        difficulty: 3
     }
 ];
 
